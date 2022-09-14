@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.DataAcces.EntityFramework
 {
-    public class EfEntityRepositoryBase
+    public class EfEntityRepositoryBase<TEntity,TContext>
     {
     }
 }
